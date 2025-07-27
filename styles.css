@@ -1,0 +1,17 @@
+.playlist-search input {
+  background: #f1f1f1;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  font-size: 14px;
+  color: #333;
+}
+
+.playlist-search input:focus {
+  outline: none;
+  border-color: #1c62b9;
+  box-shadow: 0 0 0 1px #1c62b9;
+}
+
+.playlist-search input::placeholder {
+  color: #999;
+}
